@@ -1,4 +1,3 @@
-````markdown
 # DompixelBlog
 
 Bem-vindo ao DompixelBlog, um projeto de blog simples construído com Next.js. Este aplicativo permite que você crie, leia e visualize postagens de blog. Ele também inclui recursos adicionais, como autenticação básica, pesquisa e estilização usando a biblioteca Mantine.
@@ -68,4 +67,3 @@ Durante o desenvolvimento do DompixelBlog, enfrentamos algumas dificuldades que 
 4. **Funcionalidades Bônus:** A implementação das funcionalidades de autenticação, pesquisa e animações (bônus) provou ser um desafio adicional. Essas tarefas mais complexas exigiram um conhecimento mais profundo.
 
 No entanto, considero que enfrentar essas dificuldades fez parte do processo de aprendizado e aprimoramento. Cada desafio superado foi uma oportunidade de crescimento. Encarei essas dificuldades como parte do processo de desenvolvimento e estou continuamente melhorando o DompixelBlog.
-````
