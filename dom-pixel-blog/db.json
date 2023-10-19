@@ -1,0 +1,39 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Primeira Postagem",
+            "date": "2023-10-19",
+            "coverImage": "/path-to-image-1.jpg",
+            "content": "Conteúdo da primeira postagem..."
+          },
+          {
+            "id": 2,
+            "title": "Segunda Postagem",
+            "date": "2023-10-20",
+            "coverImage": "/path-to-image-2.jpg",
+            "content": "Conteúdo da segunda postagem..."
+          },
+          {
+            "id": 3,
+            "title": "Terceira Postagem",
+            "date": "2023-10-21",
+            "coverImage": "/path-to-image-3.jpg",
+            "content": "Conteúdo da terceira postagem..."
+          },
+          {
+            "id": 4,
+            "title": "Quarta Postagem",
+            "date": "2023-10-22",
+            "coverImage": "/path-to-image-4.jpg",
+            "content": "Conteúdo da quarta postagem..."
+          },
+          {
+            "id": 5,
+            "title": "Quinta Postagem",
+            "date": "2023-10-23",
+            "coverImage": "/path-to-image-5.jpg",
+            "content": "Conteúdo da quinta postagem..."
+          }
+    ]
+}

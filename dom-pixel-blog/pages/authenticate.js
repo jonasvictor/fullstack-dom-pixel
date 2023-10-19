@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import { useToggle, upperFirst } from "@mantine/hooks";
 import { useForm } from "@mantine/form";
 import {
@@ -12,10 +13,14 @@ import {
   Checkbox,
   Anchor,
   Stack,
+  em,
 } from "@mantine/core";
 import { GoogleButton } from "@/components/GoogleButton";
 
+import "@/styles/Home.module.css";
+
 export default function AuthenticationForm(props) {
+  const router = useRouter();
   const [type, toggle] = useToggle(["login", "register"]);
   const form = useForm({
     initialValues: {
@@ -34,6 +39,16 @@ export default function AuthenticationForm(props) {
     },
   });
 
+  const onSubmit = () => {
+    const { email, password } = form.values;
+    if (email === "abc@gmail.com" && password === "123456") {
+      router.push("/");
+      alert("Login successfully");
+    } else {
+      alert("Login failed");
+    }
+  };
+
   return (
     <Paper radius="md" p="xl" withBorder {...props}>
       <Text size="lg" fw={500}>
@@ -46,7 +61,7 @@ export default function AuthenticationForm(props) {
 
       <Divider label="Or continue with email" labelPosition="center" my="lg" />
 
-      <form onSubmit={form.onSubmit(() => {})}>
+      <form onSubmit={form.onSubmit(() => {})} className="container">
         <Stack>
           {type === "register" && (
             <TextInput
@@ -110,7 +125,7 @@ export default function AuthenticationForm(props) {
               ? "Already have an account? Login"
               : "Don't have an account? Register"}
           </Anchor>
-          <Button type="submit" radius="xl">
+          <Button type="submit" radius="xl" onClick={onSubmit}>
             {upperFirst(type)}
           </Button>
         </Group>
