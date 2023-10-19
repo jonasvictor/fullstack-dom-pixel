@@ -56,7 +56,7 @@ O DompixelBlog oferece as seguintes funcionalidades:
 
 ## Dificuldades
 
-Durante o desenvolvimento do DompixelBlog, enfrentamos algumas dificuldades que gostaria de compartilhar. Foi importante superar esses desafios para tornar este projeto uma realidade:
+Durante o desenvolvimento do DompixelBlog, enfrentei algumas dificuldades que gostaria de compartilhar. Foi importante superar esses desafios para tornar este projeto uma realidade:
 
 1. **Roteamento e Navegação:** Tive algumas dificuldades na configuração inicial do roteamento e da navegação entre páginas. A abordagem baseada em rotas do Next.js exigiu um tempo para compreender completamente.
 
@@ -67,3 +67,5 @@ Durante o desenvolvimento do DompixelBlog, enfrentamos algumas dificuldades que 
 4. **Funcionalidades Bônus:** A implementação das funcionalidades de autenticação, pesquisa e animações (bônus) provou ser um desafio adicional. Essas tarefas mais complexas exigiram um conhecimento mais profundo.
 
 No entanto, considero que enfrentar essas dificuldades fez parte do processo de aprendizado e aprimoramento. Cada desafio superado foi uma oportunidade de crescimento. Encarei essas dificuldades como parte do processo de desenvolvimento e estou continuamente melhorando o DompixelBlog.
+
+Não finalizado.
